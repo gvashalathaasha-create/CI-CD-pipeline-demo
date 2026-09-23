@@ -1,20 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jenkins CI/CD Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins CI/CD Pipeline</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
-    <h1>Jenkins CI/CD Pipeline</h1>
+
+    <h1>🚀 Jenkins CI/CD Pipeline</h1>
 
     <h2>Welcome Students!</h2>
 
-    <p>This web application was deployed automatically using Jenkins.</p>
+    <p>
+        This web application demonstrates an automated
+        CI/CD pipeline using Jenkins.
+    </p>
 
-    <button>CI/CD Demo</button>
+    <div class="pipeline">
+
+        <div class="stage">
+            <div class="icon">💻</div>
+            <h3>Code</h3>
+            <p>Developer pushes code</p>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="stage">
+            <div class="icon">🔨</div>
+            <h3>Build</h3>
+            <p>Jenkins builds the application</p>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="stage">
+            <div class="icon">🧪</div>
+            <h3>Test</h3>
+            <p>Automated tests are executed</p>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="stage">
+            <div class="icon">🚀</div>
+            <h3>Deploy</h3>
+            <p>Application is deployed</p>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="stage">
+            <div class="icon">📊</div>
+            <h3>Monitor</h3>
+            <p>Application is monitored</p>
+        </div>
+
+    </div>
+
+    <div class="status">
+        <span class="status-dot"></span>
+        Pipeline Status: <strong>SUCCESS</strong>
+    </div>
+
+    <button onclick="alert('Jenkins CI/CD Pipeline executed successfully!')">
+        Run CI/CD Demo
+    </button>
+
 </div>
 
 </body>
